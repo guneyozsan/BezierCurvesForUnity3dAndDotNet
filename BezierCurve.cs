@@ -1,4 +1,4 @@
-﻿// Bezier Curve functions for Unity 3D
+// Bezier Curve functions for Unity 3D
 // Copyright (C) 2017 Guney Ozsan
 // 
 // This program is free software: you can redistribute it and/or modify
@@ -18,9 +18,9 @@
 // Mathematical formulas: "Bézier curve" from https://en.wikipedia.org/wiki/B%C3%A9zier_curve
 
 using System;
-// .NET:
+// Use this if .NET and comment out Unity 3D (using UnityEngine):
 // using System.Numerics;
-// Unity 3D:
+// Use this if Unity 3D and comment out .NET (using System.Numerics):
 using UnityEngine;
 
 // Notation follows the Mathematical convention.
